@@ -1,6 +1,6 @@
 {
   "name": "vazqzv0.9.1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The official TypeScript library for the Vazqzv0 9 1 API",
   "author": "Vazqzv0 9 1 <>",
   "types": "dist/index.d.ts",
