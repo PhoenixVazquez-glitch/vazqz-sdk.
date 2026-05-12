@@ -1,0 +1,27 @@
+$ vazqz init my-project
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║     "Even though I walk through the valley of the shadow     ║
+║       of death, I will fear no evil..."                      ║
+║                                                              ║
+║                         — Psalm 23:4                         ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+[SYSTEM] Initializing VAZQZ SDK v1.0.0
+[SYSTEM] Loading covenant protocols...
+[SYSTEM] Establishing secure foundation...
+
+✓ Created project directory
+✓ Installed dependencies (1.2s)
+✓ Generated TypeScript config
+✓ Initialized Git repository
+✓ Created initial commit
+
+"Surely goodness and mercy shall follow me all the days of my life"
+                                                         — Psalm 23:6
+
+Next steps:
+  cd my-project
+  vazqz dev
