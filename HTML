@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VAZQZ — Under the Shadow of the Almighty</title>
+    <style>
+        :root {
+            --shadow: #0a0a0f;
+            --deep-shadow: #050508;
+            --light: #f0f0f5;
+            --muted: #6b6b7b;
+            --cyan: #00f0ff;
+            --gold: #ffd700;
+        }
+
+        body {
+            background: var(--deep-shadow);
+            color: var(--light);
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .verse {
+            font-size: clamp(18px, 3vw, 28px);
+            font-style: italic;
+            max-width: 700px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            color: var(--light);
+        }
+
+        .reference {
+            font-size: 14px;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 40px;
+            animation: breathe 4s ease-in-out infinite;
+        }
+
+        @keyframes breathe {
+            0%, 100% { opacity: 0.6; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.05); }
+        }
+
+        .cta {
+            background: transparent;
+            border: 1px solid var(--cyan);
+            color: var(--cyan);
+            padding: 16px 40px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: 40px;
+        }
+
+        .cta:hover {
+            background: var(--cyan);
+            color: var(--deep-shadow);
+            box-shadow: 0 0 40px rgba(0, 240, 255, 0.3);
+        }
+
+        .tagline {
+            font-size: 12px;
+            color: var(--muted);
+            margin-top: 80px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo">
+        <svg viewBox="0 0 80 80" fill="none">
+            <rect width="80" height="80" rx="20" fill="#0a0a0f" stroke="rgba(0,240,255,0.3)" stroke-width="1"/>
+            <path d="M20 60L40 20L60 60" stroke="#00f0ff" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="40" cy="52" r="3" fill="#00f0ff"/>
+        </svg>
+    </div>
+
+    <p class="verse">
+        "He who dwells in the secret place of the Most High<br>
+        shall abide under the shadow of the Almighty."
+    </p>
+    <p class="reference">Psalm 91:1</p>
+
+    <p class="verse" style="font-size: 16px; color: var(--muted); max-width: 500px;">
+        The TypeScript toolkit for developers who build<br>
+        not by sight, but by faith. Zero-config. Fully protected.<br>
+        AI-powered. Covenant-secured.
+    </p>
+
+    <a href="#install" class="cta">Enter the Secret Place</a>
+
+    <p class="tagline">23,91 / 1%</p>
+
+</body>
+</html>
