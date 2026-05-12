@@ -1,0 +1,47 @@
+$ vazqz prompt
+
+◤ VAZQZ COVENANT INTERFACE ◥
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"The Lord is my shepherd, I shall not want."
+                              — Psalm 23:1
+
+[SYSTEM] Context: Express.js API
+[SYSTEM] AI Counsel: ACTIVE
+[SYSTEM] Protection: Psalm 91 Protocol
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+vazqz> I feel stuck on this architecture decision
+
+[THINKING] Seeking wisdom...
+[THINKING] "I will instruct you and teach you in the way you should go;
+            I will counsel you with my eye upon you."
+                                    — Psalm 32:8
+
+VAQZ:
+You're not stuck — you're being prepared. The right architecture
+is the one that serves people, not impresses peers.
+
+Consider:
+1. "He leads me beside still waters" — simplicity first
+2. "He restores my soul" — maintainability over cleverness
+3. "Your rod and your staff, they comfort me" — tests protect
+
+The pattern you're looking for is Repository + Service.
+Not because it's trendy. Because it shepherds your data safely.
+
+Would you like me to generate the implementation?
+
+vazqz> yes
+
+[GENERATING] "I will fear no evil, for you are with me..."
+                                    — Psalm 23:4
+
+✓ Created src/repositories/UserRepository.ts
+✓ Created src/services/UserService.ts
+✓ Created src/controllers/UserController.ts
+✓ Created tests/integration/users.test.ts
+
+"Surely goodness and mercy shall follow me..."
+                                    — Psalm 23:6
