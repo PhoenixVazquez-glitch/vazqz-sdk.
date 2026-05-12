@@ -1,0 +1,51 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- The Void (Psalm 91:1 - secret place) -->
+  <rect width="512" height="512" rx="128" fill="#0A0A0F"/>
+  
+  <!-- The Shadow of Wings (Psalm 91:4) -->
+  <path d="M128 320 Q256 200 384 320" 
+        stroke="#00F0FF" 
+        stroke-width="4" 
+        fill="none" 
+        opacity="0.3"/>
+  <path d="M160 340 Q256 240 352 340" 
+        stroke="#00F0FF" 
+        stroke-width="3" 
+        fill="none" 
+        opacity="0.2"/>
+  
+  <!-- The Shepherd's Rod (Psalm 23:4) -->
+  <line x1="256" y1="120" x2="256" y2="380" 
+        stroke="#00F0FF" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  
+  <!-- The Crook (guidance) -->
+  <path d="M256 120 Q256 80 296 80 Q336 80 336 120" 
+        stroke="#00F0FF" 
+        stroke-width="6" 
+        fill="none" 
+        stroke-linecap="round"/>
+  
+  <!-- The Single Remnant (1%) -->
+  <circle cx="256" cy="420" r="8" fill="#00F0FF">
+    <animate attributeName="opacity" 
+             values="1;0.4;1" 
+             dur="4s" 
+             repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- The Valley (Psalm 23:4) -->
+  <path d="M100 400 Q256 350 412 400" 
+        stroke="#1A1A24" 
+        stroke-width="2" 
+        fill="none"/>
+  
+  <!-- 23:91 inscription -->
+  <text x="256" y="480" 
+        text-anchor="middle" 
+        fill="#00F0FF" 
+        font-family="monospace" 
+        font-size="14" 
+        opacity="0.6">23:91/1%</text>
+</svg>
