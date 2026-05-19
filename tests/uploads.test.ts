@@ -1,7 +1,6 @@
 import fs from 'fs';
 import type { ResponseLike } from 'vazqzv0.9.1/internal/to-file';
 import { toFile } from 'vazqzv0.9.1/core/uploads';
-import { File } from 'node:buffer';
 
 class MyClass {
   name: string = 'foo';
