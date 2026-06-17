@@ -1,0 +1,33 @@
+<p align="center">
+  <img src="logo.svg" width="120" alt="VAZQZ">
+</p>
+
+<h1 align="center">VAZQZ SDK</h1>
+
+<p align="center">
+  <em>"The Lord is my shepherd, I shall not want."</em><br>
+  <sub>— Psalm 23:1</sub>
+</p>
+
+---
+
+## The Covenant
+
+VAQZ SDK is built on two promises:
+
+**Psalm 23** — *Provision in the valley*
+- Zero-config setup (He makes me lie down in green pastures)
+- Automatic security (Your rod and staff comfort me)
+- One-command deploy (He prepares a table before me)
+
+**Psalm 91** — *Protection under the shadow*
+- Secret scanning (No evil shall befall you)
+- Dependency auditing (No plague shall come near your tent)
+- Signed commits (He shall give His angels charge over you)
+
+---
+
+## Install
+
+```bash
+npm install -g vazqz-sdk
